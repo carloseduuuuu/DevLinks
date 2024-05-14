@@ -5,11 +5,11 @@ function toggleMode() {
   const img = document.querySelector("#profile img")
 
   if(html.classList.contains('light')) {
-    //se tiver light mode, adicionar a imagem light
-    img.setAttribute('src', './assets/avatar.png')
+    //If you have light mode, add the light image
+    img.setAttribute("src", "./assets/avatar.png")
   } else {
-    // se tiver sem light mode, manter imagem normal
-    img.setAttribute('src', './assets/avatar-light.png')
+    // If you don't have light mode, keep the image normal
+    img.setAttribute("src", "./assets/avatar-light.png")
   }
 
 }
